@@ -64,7 +64,7 @@ It can also be used as a **learning website template** for developers, educators
 
 Visit the live website:
 
-🌐 https://jamal-hashim.github.io/school/
+🌐 https://jamal-hashim.github.io/codevlogs/
 
 ---
 
