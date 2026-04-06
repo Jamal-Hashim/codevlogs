@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/codevlogs.png" type="image/x-icon">
+    <title>CodeVlogs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/codevlogs.png" alt=""></a>
+            </div>
+            <ul id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-content" data-aos="fade-right" data-aos-delay="100">
+                <h2>Contact Us</h2>
+                <p>
+                    We would love to hear from you! Whether you have questions, feedback, or
+                    just want to say hello — feel free to reach out to us using the contact
+                    information below.
+                </p>
+
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i> Email:
+                        <a href="mailto:jamalhashim9151@gmail.com">jamalhashim9151@gmail.com</a>
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+91 9120518739">+91 9120518739</a></p>
+                    <p><i class="fa-solid fa-map-marker-alt"></i> Address: Lucknow, Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn contact-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start -->
+
+    <footer>
+        <div class="footer-content">
+
+            <!-- About -->
+            <div class="footer-about">
+                <div class="footer-img">
+                    <img src="images/codevlogs.png" alt="CodeVlogs Logo">
+                </div>
+                <p>
+                    CodeVlogs is a learning platform for developers where you can explore
+                    coding tutorials, courses, notes, and playlists to boost your skills.
+                </p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                    <li><a href="notes.html"><i class="fa-solid fa-angle-right"></i>Notes</a></li>
+                    <li><a href="courses.html"><i class="fa-solid fa-angle-right"></i>Courses</a></li>
+                    <li><a href="playlist.html"><i class="fa-solid fa-angle-right"></i>Playlist</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-angle-right"></i>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-envelope"></i> jamalhashim9151@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9120518739</p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> Lucknow, Uttar Pradesh, India</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 CodeVlogs. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <!-- footer end -->
+
+
+
+    <script src="script.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
