@@ -59,6 +59,18 @@ It can also be used as a **learning website template** for developers, educators
 
 ---
 
+
+## 🚀 Live Demo
+
+Visit the live website:
+
+🌐 https://jamal-hashim.github.io/school/
+
+---
+
+🌐 Portfolio: https://jamal-hashim.github.io/jh-portfolio/  
+📧 Email: jamalhashim9151@gmail.com
+
 ## 👨‍💻 Author
 
 **Jamal Hashim**
